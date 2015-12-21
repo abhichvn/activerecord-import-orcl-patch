@@ -1,4 +1,6 @@
-source :gemcutter
+source 'https://rubygems.org'
+source 'http://rubygems.org'
+source :rubygems
 
 gem "activerecord", "~> 3.0"
 
@@ -15,6 +17,8 @@ group :test do
     gem "pg", "~> 0.9"
     gem "sqlite3-ruby", "~> 1.3.1"
     gem "seamless_database_pool", "~> 1.0.11"
+    gem 'activerecord-oracle_enhanced-adapter', '= 1.4.2'
+    gem 'ruby-oci8', '=2.1.5'
   end
 
   platforms :jruby do

@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
     "lib/activerecord-import/active_record/adapters/mysql2_adapter.rb",
     "lib/activerecord-import/active_record/adapters/mysql_adapter.rb",
     "lib/activerecord-import/active_record/adapters/postgresql_adapter.rb",
-    "lib/activerecord-import/active_record/adapters/oracle_enhanced_adapter.rb",
+    "lib/activerecord-import/active_record/adapters/seamless_database_pool_adapter.rb",
     "lib/activerecord-import/active_record/adapters/sqlite3_adapter.rb",
     "lib/activerecord-import/adapters/abstract_adapter.rb",
     "lib/activerecord-import/adapters/mysql_adapter.rb",
